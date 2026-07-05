@@ -1,0 +1,33 @@
+# dependencies (go mod)
+vendor/
+
+# build output
+bin/
+*.exe
+*.test
+*.out
+
+# coverage
+coverage.txt
+coverage.out
+*.coverprofile
+
+# logs
+logs/
+*.log
+
+# IDEs and tools
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Finder (macOS) folder config
+.DS_Store
+
+# Secrets
+.env
+
+# Go workspace files
+go.work
+go.work.sum
